@@ -12,32 +12,33 @@
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
+    <!-- HEADING SECTION -->
     <header>
-        <div class="heading">
-            <nav>
-                <a class="logo-text" href="webstudio">
+        <div class="header">
+            <nav class="header-nav">
+                <a class="header-logo-link link" href="index.html">
                     <h4><span class="logo">WEB</span>STUDIO</h4>
                 </a>
-                    <ul class="navigation-bar">
-                        <li>
-                            <a class="link" href="Studio"><span class="studio">Studio</span></a>
+                    <ul class="header-nav-list list">
+                        <li class="header-nav-item">
+                            <a class="header-link link" href="Studio"><span class="studio">Studio</span></a>
                         </li>
-                        <li>
-                            <a class="link" href="portfolio.html">Portfolio</a>
+                        <li class="header-nav-item">
+                            <a class="header-link link" href="portfolio.html">Portfolio</a>
                         </li>
-                        <li>
-                            <a class="link" href="Contacts">Contacts</a>
+                        <li class="header-nav-item">
+                            <a class="header-link link" href="Contacts">Contacts</a>
                         </li>
                     </ul>
                 </nav>    
-                    <ul class="contact-info">
-                        <li>
-                            <a href="mailto:info@devstudio.com">
+                    <ul class="header-contact list">
+                        <li class="header-contact-item">
+                            <a class="header-link link" href="mailto:info@devstudio.com">
                                 info@devstudio.com
                             </a>
                         </li>
-                        <li>
-                            <a href="tel:+11(000)111-11-11">
+                        <li class="header-contact-item">
+                            <a class="header-link link" href="tel:+11(000)111-11-11">
                                 +11 (000) 111-11-11
                             </a>
                         </li>
@@ -45,15 +46,36 @@
          </div>
     </header>
     <main>
+
     <!-- FILTER SECTION -->
         <section>
             <div class="filters">
-                <ul>
-                    <li><button class="filter-button" type="button">All</button></li>
-                    <li><button class="filter-button" type="button">Web Site</button></li>
-                    <li><button class="filter-button" type="button">App</button></li>
-                    <li><button class="filter-button" type="button">Design</button></li>
-                    <li><button class="filter-button" type="button">Marketing</button></li>
+                <ul class="filters-list list">
+                    <li class="filter-item">
+                        <button class="filter-button button" type="button">
+                            <a class="filter-link link" href="#">All</a>
+                        </button>
+                    </li>
+                    <li class="filter-item">
+                        <button class="filter-button button" type="button">
+                            <a class="filter-link link" href="#">Web Site</a>
+                        </button>
+                    </li>
+                    <li class="filter-item">
+                        <button class="filter-button button" type="button">
+                            <a class="filter-link link" href="#">App</a>
+                        </button>
+                    </li>
+                    <li class="filter-item">
+                        <button class="filter-button button" type="button">
+                            <a class="filter-link link" href="#">Design</a>
+                        </button>
+                    </li>
+                    <li class="filter-item">
+                        <button class="filter-button button" type="button">
+                            <a class="filter-link link" href="#">Marketing</a>
+                        </button>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -61,22 +83,22 @@
     <!-- PROJECT CARD GROUP 1 -->
         <section>
             <div class="project-card">
-                <ul>
-                    <li>
+                <ul class="project-card-list list">
+                    <li class="project-card-item">
                         <img src="images/bankingapp.jpg" 
                         alt="banking apps" 
                         width="360"/>
                         <h5>Banking App Interface Concept</h5>
                         <p>App</p>
                     </li>
-                    <li>
+                    <li class="project-card-item">
                         <img src="images/cashlesspay.jpg" 
                         alt="cashless payment" 
                         width="360"/>
                         <h5>Cashless Payment</h5>
                         <p>Marketing</p>
                     </li>
-                    <li>
+                    <li class="project-card-item">
                         <img src="images/meditationapp.jpg" 
                         alt="meditation app" 
                         width="360"/>
@@ -90,22 +112,22 @@
     <!-- PROJECT CARD GROUP 2 -->
         <section>
             <div class="project-card">
-                <ul>
-                    <li>
+                <ul class="project-card-list list">
+                    <li class="project-card-item">
                         <img src="images/taxiservice.jpg" 
                         alt="taxi service" 
                         width="360"/>
                         <h5>Taxi Service</h5>
                         <p>Marketing</p>
                     </li>
-                    <li>
+                    <li class="project-card-item">
                         <img src="images/screenillus.jpg" 
                         alt="screen illustration" 
                         width="360"/>
                         <h5>Screen Illustrations</h5>
                         <p>Design</p>
                     </li>
-                    <li>
+                    <li class="project-card-item">
                         <img src="images/onlinecourses.jpg" 
                         alt="lady in yellow shirt" 
                         width="360"/>
@@ -119,22 +141,22 @@
     <!-- PROJECT CARD GROUP 3 -->
         <section>
             <div class="project-card">
-                <ul>
-                    <li>
+                <ul class="project-card-list list">
+                    <li class="project-card-item">
                         <img src="images/instag.jpg" 
                         alt="Instagram" 
                         width="360"/>
                         <h5>Instagram Stories Concept</h5>
                         <p>Design</p>
                     </li>
-                    <li>
+                    <li class="project-card-item">
                         <img src="images/orgfood.jpg" 
                         alt="Organic Food" 
                         width="360"/>
                         <h5>Organic Food</h5>
                         <p>Web Site</p>
                     </li>
-                    <li>
+                    <li class="project-card-item">
                         <img src="images/coffee.jpg" 
                         alt="fresh coffee" 
                         width="360"/>
@@ -148,7 +170,7 @@
 
     <!-- FOOTER SECTION -->
     <footer class="footer">
-        <a href="webstudio">
+        <a class="footer-link link" href="index.html">
             <h4><span class="logo">WEB</span>STUDIO</h4>
         </a>
         <p>Increase the flow of customers and <br />
