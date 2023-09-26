@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     max-width: 1440px;
+    margin: 0;
+    padding: 0;
 }
 
 /* GENERAL STYLES */
@@ -14,9 +16,17 @@ body {
 }
 
 /* HEADING AND NAVIGATION BAR STYLES */
-.header-container nav a, ul, li {
-    display: inline;
+.header-nav-bar nav, 
+.header-logo-link, 
+.header-nav-list, 
+.header-contact, 
+.header-nav-item, 
+.header-contact-item,
+.header-link {
+    display: inline-block;
+
 }
+
 
 .header .link {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -50,9 +60,6 @@ body {
     letter-spacing: 0.32px;
 }
 
-.header-nav-item {
-    display: inline-block;
-}
 
 .header-link .studio {
     color: var(--IRIS, #4D5AE5);
@@ -66,9 +73,6 @@ body {
     letter-spacing: 0.32px;
 }
 
-.header-contact-item {
-    display: inline-block;
-}
 
 .link:hover {
     color: var(--IRIS, #4D5AE5);
