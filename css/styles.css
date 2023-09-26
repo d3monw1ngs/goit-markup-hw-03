@@ -51,7 +51,9 @@ h4 {
 
 /* HEADING AND NAVIGATION BAR STYLES */
 .header, .header-nav-list, .header-contact {
-    display: flex;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 .header .link {
     color: var(--NAVY-BLUE, #2E2F42);
