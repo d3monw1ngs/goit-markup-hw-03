@@ -4,14 +4,6 @@ body {
 }
 
 /* GENERAL STYLES */
-p {
-    color: var(--SLATE, #434455);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
-
 .link {
     text-decoration: none;
 }
@@ -21,50 +13,31 @@ p {
     padding-left: 0;
 }
 
-h2 {
-    color: var(--NAVY-BLUE, #2E2F42);
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-}
-
-h3 {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-}
-
-h4 {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 24px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
-
 /* HEADING AND NAVIGATION BAR STYLES */
-.header, .header-nav-list, .header-contact {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+.header-container nav a, ul, li {
+    display: inline;
 }
+
 .header .link {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.header .logo {
+.header-nav .logo {
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.header-nav h4 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -77,16 +50,24 @@ h4 {
     letter-spacing: 0.32px;
 }
 
+.header-nav-item {
+    display: inline-block;
+}
+
 .header-link .studio {
     color: var(--IRIS, #4D5AE5);
 }
 
-.header-contact-item {
+.header-contact a {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+
+.header-contact-item {
+    display: inline-block;
 }
 
 .link:hover {
@@ -103,11 +84,17 @@ h4 {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
+    line-height: 60px;
     letter-spacing: 1.12px;
+    padding-top: 188px;
+    padding-right: 472px;
+    padding-left: 472px;
+
 }
 
 .banner-container {
     width: 1440px;
+    height: 600px;
     text-align: center;
 }
 
@@ -119,6 +106,8 @@ h4 {
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.64px;
+    border-radius: 4px;
+    border: none;
 }
 
 .filter-button {
@@ -130,33 +119,89 @@ h4 {
     color: var(--IRIS, #4D5AE5);
 }
 
+/* BENEFITS STYLES */
+.benefits-item h3 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.benefits-item p {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+/* WHAT ARE WE DOING STYLES */
+.services h2 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
 /* OUR TEAM STYLES */
+.team h2 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
 .team h4 {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
+    line-height: 24px;
     letter-spacing: 0.4px;
 }
 
 .team p {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
+    line-height: 24px;
     letter-spacing: 0.32px;
 }
 
 /* FOOTER STYLES */
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
+    padding-left: 156px;
+    padding-bottom: 100px;
+    padding-top: 101.5px;
+    width: 1440px;
+    height: 312px;
    
 }
 
 .footer h4 {
     color: var(--CLOUD, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .footer p {
     color: var(--CLOUD, #F4F4FD);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
 }
 
 .footer .logo {
