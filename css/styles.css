@@ -87,6 +87,7 @@ body {
 .nav-list {
     display: flex;
     flex-direction: row;
+    
 }
 
 .nav-items {
@@ -143,7 +144,8 @@ body {
     border: none;
 }
 
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
     color: white;
     background-color: var(--ocean);
 }
@@ -152,6 +154,8 @@ body {
 .project-card-list {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    
 
 }
 
