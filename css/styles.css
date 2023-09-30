@@ -10,6 +10,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.container {
+    width: 1158px;
+}
+
 /* GENERAL STYLING */
 .link {
     text-decoration: none;
@@ -80,6 +84,11 @@ body {
     text-transform: uppercase;
 }
 
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+
 .nav-items {
     color: var(--navy-blue);
     font-weight: 500;
@@ -87,11 +96,17 @@ body {
     letter-spacing: 0.32px;
 }
 
+.info-list {
+    display: flex;
+    flex-direction: row;
+}
+
 .contact-list {
     color: var(--slate);
     line-height: 1.5; /* 150% */
     letter-spacing: 0.32px;
 }
+
 
 /* HERO SECTION STYLING */
 .hero-text {
@@ -131,6 +146,31 @@ body {
 .filter-button:hover {
     color: white;
     background-color: var(--ocean);
+}
+
+/* PORTFOLIO PROJECT CARDS */
+.project-card-list {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* BENEFIT SECTION STYLING */
+.benefit-list {
+    display: flex;
+    flex-direction: row;
+}
+
+/* WHAT WE ARE DOING SECTION STYLING */
+.services-list {
+    display: flex;
+    flex-direction: row;
+}
+
+/* OUR TEAM SECTION STYLING */
+.team-list {
+    display: flex;
+    flex-direction: row;
 }
 
 /* FOOTER STYLING */
